@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wifi_test/widgets/buttons/custom_button.dart';
+import 'package:wifi_test/ui/buttons/custom_button.dart';
 
 class InfoDummyButton extends StatelessWidget {
   final String label;

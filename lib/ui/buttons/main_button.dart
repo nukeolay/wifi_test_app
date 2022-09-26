@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_test/services/wifi_service.dart';
-import 'package:wifi_test/widgets/buttons/disconnect_button.dart';
-import 'package:wifi_test/widgets/buttons/scan_button.dart';
-import 'package:wifi_test/widgets/buttons/info_dummy_button.dart';
+import 'package:wifi_test/ui/buttons/disconnect_button.dart';
+import 'package:wifi_test/ui/buttons/scan_button.dart';
+import 'package:wifi_test/ui/buttons/info_dummy_button.dart';
 
 class MainButton extends StatefulWidget {
   const MainButton({Key? key}) : super(key: key);

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_test/services/wifi_service.dart';
-import 'package:wifi_test/widgets/buttons/custom_button.dart';
-import 'package:wifi_test/widgets/custom_textfield.dart';
+import 'package:wifi_test/ui/buttons/custom_button.dart';
+import 'package:wifi_test/ui/custom_textfield.dart';
 
 class ConnectDialog extends StatefulWidget {
   final String networkName;

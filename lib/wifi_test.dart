@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_test/services/wifi_service.dart';
-import 'package:wifi_test/widgets/buttons/main_button.dart';
-import 'package:wifi_test/widgets/networks_list.dart';
+import 'package:wifi_test/ui/buttons/main_button.dart';
+import 'package:wifi_test/ui/networks_list/networks_list.dart';
 
 class WifiTest extends StatefulWidget {
   const WifiTest({Key? key}) : super(key: key);

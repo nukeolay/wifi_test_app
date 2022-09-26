@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:wifi_test/app/wifi_test.dart';
+import 'package:wifi_test/wifi_test.dart';
 import 'package:wifi_test/services/wifi_service.dart';
 
 void main() async {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_test/services/wifi_service.dart';
-import 'package:wifi_test/widgets/avialable_networks.dart';
+import 'package:wifi_test/ui/networks_list/avialable_networks.dart';
 
 class NetworksList extends StatefulWidget {
   const NetworksList({Key? key}) : super(key: key);

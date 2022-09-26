@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:wifi_test/services/wifi_service.dart';
-import 'package:wifi_test/widgets/connect_dialog.dart';
+import 'package:wifi_test/ui/connect_dialog.dart';
 
 class AvialableNetworks extends StatelessWidget {
   final List<WifiAccessPoint> scannedNetworks;

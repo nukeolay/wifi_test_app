@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:wifi_test/services/wifi_service.dart';
-import 'package:wifi_test/widgets/buttons/custom_button.dart';
+import 'package:wifi_test/ui/buttons/custom_button.dart';
 
-class ScanButton extends StatefulWidget {
-  const ScanButton({Key? key}) : super(key: key);
+class DisconnectButton extends StatefulWidget {
+  const DisconnectButton({Key? key}) : super(key: key);
 
   @override
-  State<ScanButton> createState() => _ScanButtonState();
+  State<DisconnectButton> createState() => _DisconnectButtonState();
 }
 
-class _ScanButtonState extends State<ScanButton> {
+class _DisconnectButtonState extends State<DisconnectButton> {
   bool _isInit = true;
   late WifiService _wifiService;
 
@@ -31,11 +31,11 @@ class _ScanButtonState extends State<ScanButton> {
       child: ConstrainedBox(
         constraints: const BoxConstraints(minWidth: 250.0),
         child: CustomButton(
-          label: 'Scan',
-          buttonState: ButtonStatus.primary,
+          label: 'Disconnect',
+          buttonState: ButtonStatus.error,
           action: () {
             HapticFeedback.mediumImpact();
-            _wifiService.scan();
+            _wifiService.disconnect();
           },
         ),
       ),
