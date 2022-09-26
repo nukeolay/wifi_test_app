@@ -44,6 +44,8 @@ class _MainButtonState extends State<MainButton> {
         return const InfoDummyButton(label: 'Disconnected');
       case WifiStatus.failed:
         return const InfoDummyButton(label: 'Press network to connect');
+      case WifiStatus.unknown:
+        return const InfoDummyButton(label: '...');
       default:
         return Text(_wifiService.serviceStatus.toString());
     }
